@@ -1,0 +1,35 @@
+.wppButton:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: transparent url(../../assets/icons/whatsappWhite.svg) center
+    center no-repeat;
+  background-size: 30px auto;
+  -webkit-background-size: 30px auto;
+  -moz-background-size: 30px auto;
+  transition: 0.4s ease all;
+  -webkit-transition: 0.4s ease all;
+  -moz-transition: 0.4s ease all;
+}
+
+.wppButton {
+  width: 56px;
+  height: 56px;
+  background: #2db742;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  box-shadow: 0 6px 8px 2px #00000024;
+  -webkit-box-shadow: 0 6px 8px 2px rgb(0 0 0 / 14%);
+  -moz-box-shadow: 0 6px 8px 2px rgba(0, 0, 0, 0.14);
+
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  cursor: pointer;
+  z-index: 10;
+}

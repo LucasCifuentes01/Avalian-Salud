@@ -1,0 +1,30 @@
+.title-prestadores {
+  width: 90%;
+  font-size: 28px;
+  color: #096;
+  letter-spacing: 0.5px;
+  margin: 40px auto 0;
+  padding: 0 0 50px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.prestadores-img {
+  width: 200px;
+}
+
+.prestadores-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .title-prestadores {
+    letter-spacing: 0;
+  }
+  .prestadores-img {
+    width: 100px;
+  }
+}

@@ -1,0 +1,14 @@
+.osdepym {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.osdepym__text {
+  font-size: 24px;
+  color: #00996b;
+  font-weight: bold;
+}

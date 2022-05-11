@@ -1,0 +1,36 @@
+.planes-sub-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.planes-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+}
+
+.image {
+  width: 350px;
+}
+
+.text {
+  color: #999;
+}
+
+.titulo {
+  color: #222;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+  margin: 0 0 50px;
+  font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+  .planes-sub-container {
+    flex-wrap: nowrap;
+  }
+}
