@@ -10,7 +10,7 @@ import "./contacto.css";
 const CardItem = ({ icon, title, description }) => (
   <div className="cardItem-container">
     <div className="cardItem-icon-container">
-      <img src={icon} alt="icono" />
+      <img className="CardItem__svg-contacto" src={icon} alt="icono" />
     </div>
     <div className="cardItem-icon-container-2">
       <h3 className="cardItem-title">{title}</h3>

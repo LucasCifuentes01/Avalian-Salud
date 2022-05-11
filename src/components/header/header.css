@@ -43,7 +43,7 @@ header:after {
 
 @media (max-width: 600px) {
   header {
-    padding-bottom: 250px;
+    padding-bottom: 600px;
   }
   .title {
     font-size: 50px;
