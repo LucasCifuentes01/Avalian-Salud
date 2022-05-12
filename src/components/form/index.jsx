@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./form.css";
 import Button from "../button";
+import { emailPersonal } from "../../constants/personalConfig";
 
 const Form = () => {
   const [data, setData] = useState({
@@ -11,7 +12,7 @@ const Form = () => {
   });
   const handleSubmit = (e) => {
     window.open(
-      `mailto:ypineira@avalian.com?subject=${data.fullName}&body=${
+      `mailto:${emailPersonal}?subject=${data.fullName}&body=${
         data.message + ". Telefono: " + data.phoneNumber
       }`
     );

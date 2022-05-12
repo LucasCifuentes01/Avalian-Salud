@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./formMobile.css";
 import Button from "../button";
+import { emailPersonal } from "../../constants/personalConfig";
 
 const FormMobile = () => {
   const [data, setData] = useState({
@@ -11,7 +12,7 @@ const FormMobile = () => {
   });
   const handleSubmit = (e) => {
     window.open(
-      `mailto:ypineira@avalian.com?subject=${data.fullName}&body=${
+      `mailto:${emailPersonal}?subject=${data.fullName}&body=${
         data.message + ". Telefono: " + data.phoneNumber
       }`
     );
